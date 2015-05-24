@@ -1,6 +1,6 @@
 # object-random [![Build Status](https://travis-ci.org/gillstrom/object-random.svg?branch=master)](https://travis-ci.org/gillstrom/object-random)
 
-> Get a random value from an object
+> Get random values from an object
 
 
 ## Install
