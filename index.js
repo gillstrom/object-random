@@ -5,13 +5,14 @@ module.exports = function (obj, n) {
 		throw new Error('Expected an object as the first argument');
 	}
 
-	if (n >= Object.keys(obj).length) {
-		throw new Error('Second argument must be lower than the number of keys')
+	var keys = Object.keys(obj);
+	var ret = [];
+
+	if (n >= keys.length) {
+		n = keys.length;
 	}
 
-	var keys = Object.keys(obj);
-	var n = Number(n) || 1;
-	var ret = [];
+	n = Number(n) || 1;
 
 	while (n-- && keys.length > 0) {
 		var r = Math.floor(Math.random() * keys.length);

@@ -19,5 +19,6 @@ test('Random', function (t) {
 
 	t.assert(objectRandom(obj).length === 1);
 	t.assert(objectRandom(obj, 4).length === 4);
+	t.assert(objectRandom(obj, 24).length === 10);
 	t.assert(Array.isArray(objectRandom(obj, 8)));
 });
