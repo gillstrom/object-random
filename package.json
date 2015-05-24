@@ -1,6 +1,6 @@
 {
   "name": "object-random",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get random, unique values from an object",
   "license": "MIT",
   "repository": "gillstrom/object-random",
