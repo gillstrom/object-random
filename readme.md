@@ -23,10 +23,10 @@ var obj = {
 };
 
 objectRandom(obj);
-//=> [5]
+//=> [4]
 
 objectRandom(obj, 3);
-//=> [5, 3, 2]
+//=> [0, 3, 2]
 ```
 
 
