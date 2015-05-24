@@ -1,0 +1,30 @@
+{
+  "name": "object-random",
+  "version": "1.0.0",
+  "description": "Get a random value from an object",
+  "license": "MIT",
+  "repository": "gillstrom/object-random",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "key",
+    "object",
+    "random",
+    "value"
+  ],
+  "devDependencies": {
+    "ava": "^0.0.4"
+  }
+}
