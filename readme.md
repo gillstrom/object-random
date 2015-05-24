@@ -2,7 +2,6 @@
 
 > Get random, unique values from an object
 
-
 ## Install
 
 ```
