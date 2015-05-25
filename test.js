@@ -14,11 +14,11 @@ var obj = {
 	j: 9
 };
 
-test('Random', function (t) {
+test(function (t) {
 	t.plan(4);
 
 	t.assert(objectRandom(obj).length === 1);
-	t.assert(objectRandom(obj, {n: 4}).length === 4);
-	t.assert(objectRandom(obj, {n: 24}).length === 10);
-	t.assert(Array.isArray(objectRandom(obj, {n: 8})));
+	t.assert(objectRandom(obj, {count: 4}).length === 4);
+	t.assert(objectRandom(obj, {count: 24}).length === 10);
+	t.assert(Array.isArray(objectRandom(obj, {count: 8})));
 });

@@ -24,7 +24,7 @@ var obj = {
 objectRandom(obj);
 //=> [4]
 
-objectRandom(obj, {n: 3});
+objectRandom(obj, {count: 3});
 //=> [0, 3, 2]
 ```
 
@@ -46,12 +46,12 @@ Type: `object`
 
 Options to pass.
 
-##### options.n
+##### count
 
 Type: `number`  
 Default: `1`
 
-Quantity of returned values.
+Number of returned values.
 
 
 ## License
