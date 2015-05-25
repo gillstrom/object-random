@@ -24,12 +24,12 @@ var obj = {
 objectRandom(obj);
 //=> [4]
 
-objectRandom(obj, 3);
+objectRandom(obj, {n: 3});
 //=> [0, 3, 2]
 ```
 
 
-### objectRandom(object, quantity)
+### objectRandom(object, options)
 
 Returns an `array`.
 
@@ -40,7 +40,13 @@ Type: `object`
 
 Object to pick from.
 
-#### quantity
+#### options
+
+Type: `object`
+
+Options to pass.
+
+##### options.n
 
 Type: `number`  
 Default: `1`
