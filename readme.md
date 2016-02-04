@@ -29,7 +29,7 @@ objectRandom(obj, {count: 3});
 ```
 
 
-### objectRandom(object, options)
+### objectRandom(object, [options])
 
 Returns an `array`.
 
